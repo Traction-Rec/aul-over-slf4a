@@ -1,0 +1,26 @@
+{
+  "packageDirectories": [
+    {
+      "path": "src",
+      "package": "aul-over-slf4a",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": true,
+      "dependencies": [
+				{
+					"package": "SLF4A_test"
+				},
+				{
+					"package": "aul"
+				}
+      ]
+    }
+  ],
+  "namespace": "aul_over_slf4a",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "48.0",
+  "packageAliases": {
+      "SLF4A_test": "04t5w000002ePGbAAM",
+      "aul": "04t5w000000iFisAAE"
+  }
+}
